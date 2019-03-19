@@ -1,0 +1,18 @@
+---
+galaxy_info:
+  author: Mattia Martinello
+  description: Install Oracle JDK on Debian Linux
+  license: license (BSD)
+  min_ansible_version: 2.4
+
+  platforms:
+    - name: Debian
+      versions:
+        - stretch
+
+  galaxy_tags:
+    - system
+    - java
+    - jdk
+    - debian
+    - oracle
