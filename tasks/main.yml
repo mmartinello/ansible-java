@@ -23,7 +23,7 @@
 
 - name: Install Java 8
   apt:
-    name: "{{packages}}"
+    name: "{{ packages }}"
     state: present
   vars:
     packages:
